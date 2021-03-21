@@ -17,7 +17,7 @@ Other installation detail can be found [here](https://gohugo.io/getting-started/
 The next is to build the project and add theme `ananke` by
 ```
 hugo new site quickstart
-
+cd quickstart
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 ```
 
@@ -48,7 +48,8 @@ things to note
 * This repo should be public repo unless you are a paid user.
 * This repo has to be named as `<USER_NAME>.github.io`.
 
-After create the repo, there are two ways to make Github Page work with Hugo
+After create the repo and push your change to the repo, 
+there are two ways to make Github Page work with Hugo
 
 The first way is to add `publishDir = "docs"` to your `config.toml` file to 
 tell Hugo to generate the frontend manifest to `/docs` folder and update your
