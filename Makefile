@@ -1,3 +1,3 @@
 run:
 	rm -rf ./docs
-	hugo -d ./docs
+	env HUGO_ENV=production hugo -d ./docs
