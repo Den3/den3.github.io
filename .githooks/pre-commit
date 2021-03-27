@@ -1,9 +1,0 @@
-#!/bin/bash
-
-set -euox pipefail
-
-echo "remove the ./docs folder"
-rm -rf ./docs
-
-echo "produce the html file"
-hugo -d ./docs

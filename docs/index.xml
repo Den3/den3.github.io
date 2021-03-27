@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Den Tsou</title>
+    <link>https://den3tsou.github.io/</link>
+    <description>Recent content on Den Tsou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Mar 2021 20:53:15 +1100</lastBuildDate><atom:link href="https://den3tsou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to build a github page with hugo</title>
+      <link>https://den3tsou.github.io/posts/01_how-to-host-github-page-with-hugo/</link>
+      <pubDate>Sat, 20 Mar 2021 20:53:15 +1100</pubDate>
+      
+      <guid>https://den3tsou.github.io/posts/01_how-to-host-github-page-with-hugo/</guid>
+      <description>This article will talk about how to use hugo, Github Pages and Github Actions to build a blog.
+Hugo Installation First of all, you will need to install hugo locally. I am using Linux, so the command is
+# Ubuntu snap install hugo Other installation detail can be found here
+Build Site Locally The next is to build the project and add theme ananke by
+hugo new site quickstart cd quickstart git submodule add https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
