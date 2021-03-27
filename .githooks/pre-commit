@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -euox pipefail
+
+echo "produce the html file"
+hugo -D ./docs
